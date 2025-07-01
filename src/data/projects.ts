@@ -20,7 +20,7 @@ In collaboration with QA and the backend teams, I also responded to client-side 
       { name: 'HTML', icon: '/icons/HTML.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'CSS', icon: '/icons/CSS.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'Bootstrap', icon: '/icons/bootstrap.png', color: '#7952B3', rgb: '121, 82, 179' },
-      { name: 'JavaScript', icon: '/icons/JS.png', color: '#38BDF8', rgb: '56, 189, 248' },
+      { name: 'JavaScript', icon: '/icons/javascript.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'jQuery', icon: '/icons/jquery.png', color: '#0769AD', rgb: '7, 105, 173' },
       { name: 'Figma', icon: '/icons/figma.png', color: '#F24E1E', rgb: '242, 78, 30' },
     ],
@@ -57,7 +57,7 @@ Zenro also demanded a pixel-perfect user experience, and I handled the visual de
       { name: 'HTML', icon: '/icons/HTML.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'CSS', icon: '/icons/CSS.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'Bootstrap', icon: '/icons/bootstrap.png', color: '#7952B3', rgb: '121, 82, 179' },
-      { name: 'JavaScript', icon: '/icons/JS.png', color: '#38BDF8', rgb: '56, 189, 248' },
+      { name: 'JavaScript', icon: '/icons/javascript.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'jQuery', icon: '/icons/jquery.png', color: '#0769AD', rgb: '7, 105, 173' },
       { name: 'Figma', icon: '/icons/figma.png', color: '#F24E1E', rgb: '242, 78, 30' },
       { name: 'Photoshop', icon: '/icons/photoshop.png', color: '#31A8FF', rgb: '49, 168, 255' },
@@ -128,7 +128,7 @@ This project demonstrates my ability to take a static idea and convert it into a
     tech: [
       { name: 'HTML', icon: '/icons/HTML.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'CSS', icon: '/icons/CSS.png', color: '#38BDF8', rgb: '56, 189, 248' },
-      { name: 'JavaScript', icon: '/icons/JS.png', color: '#38BDF8', rgb: '56, 189, 248' },
+      { name: 'JavaScript', icon: '/icons/javascript.png', color: '#38BDF8', rgb: '56, 189, 248' },
       { name: 'jQuery', icon: '/icons/jquery.png', color: '#0769AD', rgb: '7, 105, 173' },
       { name: 'Bootstrap', icon: '/icons/bootstrap.png', color: '#7952B3', rgb: '121, 82, 179' }
     ],
