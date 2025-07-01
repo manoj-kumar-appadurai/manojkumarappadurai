@@ -53,9 +53,6 @@ export function About() {
                 <li>
                   As I grew in the field, I developed a strong interest in bringing designs to life, which motivated me to learn frontend technologies such as HTML, CSS, JavaScript, and React. Today, I blend creativity with code to deliver engaging and accessible web interfaces.
                 </li>
-                <li>
-                  My journey from engineering to design and development has shaped me into a versatile professional with a keen eye for detail, usability, and performance. I am passionate about building seamless digital experiences that solve real user problems.
-                </li>
               </>
             )}
           </div>
