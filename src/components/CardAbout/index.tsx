@@ -19,6 +19,16 @@ export function About() {
   return (
     <Container>
       <AboutContainer>
+        <div className="AboutImg">
+          <img
+            width="100%"
+            height={500}
+            className="AboutImg"
+            src="/manojkumar.png"
+            alt="Manoj's Image"
+            loading="lazy"
+          />
+        </div>
         <div className="aboutContent">
           <div className="aboutDescription">
             <h2>{currentLang === 'ta' ? 'என்னைப் பற்றி சிறிது!!' : 'Little About Me!!'}</h2>
