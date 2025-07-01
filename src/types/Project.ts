@@ -56,4 +56,5 @@ export interface Project {
   tags: Tag[]
   print: Print[]
   team: Team[]
+  roles?: string[];
 }
