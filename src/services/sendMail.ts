@@ -9,8 +9,16 @@ export const sendContactMail = async (name: string, email: string, message: stri
     from_name: name,
     email: email,
     message: message,
+    time: new Date().toLocaleString('en-IN', {
+      timeZone: 'Asia/Kolkata',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+    })
   }
-
   try {
     const response = await emailjs.send(service_id, template_id, templateParams, user_id)
     return response
