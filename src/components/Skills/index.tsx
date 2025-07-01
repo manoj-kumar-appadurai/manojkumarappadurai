@@ -47,7 +47,7 @@ export function Skills() {
           return (
             <SkillsContent color={skill.color} key={skill.id}>
               {/* eslint-disable-next-line jsx-a11y/alt-text */}
-              <Image
+              <img
                 width={60}
                 height={60} 
                 src={skill.img} 
