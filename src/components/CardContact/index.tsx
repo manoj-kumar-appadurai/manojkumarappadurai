@@ -18,7 +18,7 @@ export function CardContact() {
   }, [router.locale]);
 
   return (
-    <Section>
+    <Section style={{marginTop: '0px'}}>
       <CardContactContainer>
         <CardContactContent>
           <div className="description">
