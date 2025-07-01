@@ -39,9 +39,19 @@ export function Form() {
 
   const onSubmits = async (event: FormEvent) => {
     event.preventDefault()
-    
+
+    const time = new Date().toLocaleString('en-IN', {
+      timeZone: 'Asia/Kolkata',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+    })
+
     try {
-      await sendContactMail(name, email, message)
+      await sendContactMail(name, email, message, time)  // pass time
       toast.success(currentLang === 'ta' ? 'செய்தி வெற்றிகரமாக அனுப்பப்பட்டது!' : 'Message Sent Successfully!')
       setName('')
       setEmail('')
