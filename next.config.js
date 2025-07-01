@@ -1,12 +1,9 @@
-/** @type {import('next').NextConfig} */
-
 const { i18n } = require('./next-i18next.config');
 
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   compiler: {
-    // Enables the styled-components SWC transform
     styledComponents: true
   },
   audio: {
@@ -17,19 +14,20 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'i.imgur.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'manojkumarappaduraiportfolio.netlify.app', // ✅ Add this
       }
     ]
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
-      config.resolve.fallback.fs = false
+      config.resolve.fallback.fs = false;
     }
-    return config
+    return config;
   },
-}
-
-
-module.exports = {
-  i18n,
-  nextConfig
+  i18n, // ✅ Add i18n here directly
 };
+
+module.exports = nextConfig;
