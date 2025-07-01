@@ -84,7 +84,7 @@ export default function Projects() {
                   <div className="border" key={project.id} />
                   <S.ProjectsItem>
                     <div className="banner">
-                      <Image
+                      <img
                         style={{ borderRadius: "20px" }}
                         width={500}
                         height={300}

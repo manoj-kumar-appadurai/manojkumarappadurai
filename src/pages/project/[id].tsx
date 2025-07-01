@@ -89,7 +89,7 @@ export default function Projeto({ project }: ProjectProps) {
                       border: `1px solid ${tech.color}`
                     }}
                   >
-                    <Image
+                    <img
                       src={tech.icon}
                       alt={tech.name}
                       width={50}

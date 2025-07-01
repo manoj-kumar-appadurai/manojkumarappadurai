@@ -31,11 +31,11 @@ export function Header() {
       <div className="mobile-content" style={{ display: 'flex' }}>
         <Link href={'/'}>
           <div className="logo">
-            <Image
+            <img
               className="logo"
               width={40}
               height={40}
-              src="https://manojkumarappaduraiportfolio.netlify.app/mk.png"
+              src="/mk.png"
               alt="logo"
             />
           </div>

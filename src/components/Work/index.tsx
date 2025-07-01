@@ -55,7 +55,7 @@ export function Work_Experience() {
                   }}
                   date={exp.date}
                   icon={
-                    <Image
+                    <img
                       style={{ position: 'relative', width: '100%', height: '100%', borderRadius: '60%' }}
                       width={60}
                       height={60}

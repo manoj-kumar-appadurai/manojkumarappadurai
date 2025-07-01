@@ -120,7 +120,7 @@ export function HomeHero() {
           <h1>
             {currentLang === 'ta' ? 'சரவணகுமார் ரா' : 'Manoj Kumar'}
             <span className="animation">
-              <Image
+              <img
                 width={200}
                 height={200}
                 src="/vectors/triangle.svg"
@@ -163,7 +163,7 @@ export function HomeHero() {
           <img className="home-img" src="/home.png" alt={currentLang === 'ta' ? 'முகப்பு படம்' : 'Image Home'} />
 
           <div className="code">
-            <Image
+            <img
               width={150}
               height={50}
               src="/vectors/dino.svg"
