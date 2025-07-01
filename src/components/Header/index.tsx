@@ -35,7 +35,7 @@ export function Header() {
               className="logo"
               width={40}
               height={40}
-              src="/mk.png"
+              src="https://manojkumarappaduraiportfolio.netlify.app/mk.png"
               alt="logo"
             />
           </div>

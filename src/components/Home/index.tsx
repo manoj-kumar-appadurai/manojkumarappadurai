@@ -229,7 +229,7 @@ export function HomeHero() {
                           <Image
                             width={50}
                             height={50}
-                            src="/mk.png"
+                            src="https://manojkumarappaduraiportfolio.netlify.app/mk.png"
                             alt="logo"
                             loading="lazy"
                           />
