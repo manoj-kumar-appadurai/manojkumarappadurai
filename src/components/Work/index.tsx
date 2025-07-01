@@ -92,7 +92,7 @@ export function Work_Experience() {
                         <h3>{currentLang === 'ta' ? 'தொழில்நுட்பங்கள்:' : 'Techs:'}</h3>
                         <div className="tag">
                           {exp.tags.map(tag => (
-                            <Image style={{ margin: '0.2rem' }}
+                            <img style={{ margin: '0.2rem' }}
                               key={tag.name}
                               width={50}
                               height={50}

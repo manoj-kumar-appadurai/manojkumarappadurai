@@ -83,7 +83,7 @@ export function Certificates() {
             {certificate_img &&
               certificate_img.map(certificate_img => {
                 return (
-                  <Image
+                  <img
                     width={500}
                     height={300}
                     className="carousel"

@@ -29,7 +29,7 @@ export function CardContact() {
           </div>
 
           <div className="contact">
-            <Image 
+            <img 
               width={480} 
               height={500} 
               src="/contact.svg" 

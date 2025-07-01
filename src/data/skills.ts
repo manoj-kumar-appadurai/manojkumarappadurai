@@ -23,7 +23,7 @@ const cardSkills = [
       en: 'JavaScript',
       ta: 'ஜாவாஸ்கிரிப்ட்',
     },
-    img: '/icons/JS.png',
+    img: '/icons/javascript.png',
     color: '#fefe01'
   },
     {
