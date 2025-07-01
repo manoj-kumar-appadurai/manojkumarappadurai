@@ -75,7 +75,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
 
-          <link rel="icon" href="https://manojkumarappaduraiportfolio.netlify.app/mk.png" />
+          <link rel="icon" href="/mk.png" />
         </Head>
         <body>
           <Main />
