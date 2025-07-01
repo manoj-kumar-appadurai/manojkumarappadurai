@@ -23,7 +23,7 @@ export default function Contacts() {
   return (
     <>
       <Head>
-        <title>{currentLang === 'ta' ? 'தொடர்பு | சரவணகுமார்' : 'Contact | Manoj Kumar Appadurai'}</title>
+        <title>{currentLang === 'ta' ? 'தொடர்பு | சரவணகுமார்' : 'Contact | Manoj Kumar'}</title>
         <meta
           name="description"
           content="Feel free to get in touch and let's talk about how we can work together."

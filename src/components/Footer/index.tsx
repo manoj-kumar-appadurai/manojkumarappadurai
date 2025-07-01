@@ -19,7 +19,7 @@ export function Footer() {
   return (
     <FooterContainer>
       <FooterContent>
-        <h4> &copy; {new Date().getFullYear()} Manoj Kumar Appadurai</h4>
+        <h4> &copy; {new Date().getFullYear()} Manoj Kumar</h4>
       </FooterContent>
       <div className="links">
         <Link

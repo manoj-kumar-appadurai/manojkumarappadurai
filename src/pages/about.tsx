@@ -33,13 +33,13 @@ export default function About() {
 
   return <>
     <Head>
-      <title>{currentLang === 'ta' ? 'பற்றி | மனோஜ்குமார்' : 'About | Manoj Kumar Appadurai'}</title>
+      <title>{currentLang === 'ta' ? 'பற்றி | மனோஜ்குமார்' : 'About | Manoj Kumar'}</title>
       <meta
         name="description"
         content={
           currentLang === 'ta'
             ? 'நான் மனோஜ்குமார் அப்பாதுரை, 3 வருட அனுபவம் கொண்ட UI/UX வடிவமைப்பாளர் மற்றும் முன்னணி டெவலப்பராக இருக்கிறேன். சிறந்த பயனர் அனுபவங்களை உருவாக்கும் முயற்சியில் வடிவமைப்பும் மேம்பாட்டும் ஒன்றிணைந்து செயல்படுகின்றன.'
-            : 'I am Manoj Kumar Appadurai, a UI/UX Designer and Front-End Developer with 3 years of experience. I specialize in crafting intuitive user interfaces and translating designs into clean, responsive web applications.'
+            : 'I am Manoj Kumar, a UI/UX Designer and Front-End Developer with 3 years of experience. I specialize in crafting intuitive user interfaces and translating designs into clean, responsive web applications.'
         }
       />
       <meta
@@ -51,7 +51,7 @@ export default function About() {
         content={
           currentLang === 'ta'
             ? 'நான் மனோஜ்குமார் அப்பாதுரை, 3 வருட அனுபவம் கொண்ட UI/UX வடிவமைப்பாளர் மற்றும் முன்னணி டெவலப்பராக இருக்கிறேன். சிறந்த பயனர் அனுபவங்களை உருவாக்கும் முயற்சியில் வடிவமைப்பும் மேம்பாட்டும் ஒன்றிணைந்து செயல்படுகின்றன.'
-            : 'I am Manoj Kumar Appadurai, a UI/UX Designer and Front-End Developer with 3 years of experience. I specialize in crafting intuitive user interfaces and translating designs into clean, responsive web applications.'
+            : 'I am Manoj Kumar, a UI/UX Designer and Front-End Developer with 3 years of experience. I specialize in crafting intuitive user interfaces and translating designs into clean, responsive web applications.'
         }
       />
     </Head>

@@ -21,7 +21,7 @@ interface ProjectProps {
 export default function Projeto({ project }: ProjectProps) {
   return <>
     <Head>
-      <title>{project.title} | Manoj Kumar Appadurai </title>
+      <title>{project.title} | Manoj Kumar</title>
       <meta name="description" content={project.description} />
       <meta property="og:title" content={project.title} />
       <meta property="og:description" content={project.description} />

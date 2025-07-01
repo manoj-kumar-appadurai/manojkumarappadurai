@@ -39,7 +39,7 @@ export function Header() {
               alt="logo"
             />
           </div>
-          {'Manoj Kumar Appadurai'}
+          {'Manoj Kumar'}
         </Link>
         <style jsx>{`
           .settings {
