@@ -32,10 +32,6 @@ export const CVDescription = styled.div`
   border-radius: 5px;
   padding: 1rem;
   position: relative;
-
-  @media(min-width: 994px) {
-    margin-bottom: 3rem;
-  }
   
   .aspas{
     position: absolute;
